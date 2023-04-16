@@ -59,9 +59,13 @@ line-height: 24px;
 letter-spacing: 0.02em;
 list-style-type: none;
 }
-.address :active {
+.address :focus {
     color: #404BBF;
 }
+.address :hover {
+    color: #404BBF;
+}
+
 .address1 {
     text-decoration: none;
     color: #434455;
@@ -83,12 +87,16 @@ list-style-type: none;
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
+    cursor: pointer;
 }
 .button:hover {
     background-color: #404BBF;
 }
 .ul {
     list-style-type: none;
+}
+.team {
+    background-color: #F4F4FD
 }
 .feature-title {
     font-weight: 500;
