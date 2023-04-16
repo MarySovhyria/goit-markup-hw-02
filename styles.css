@@ -1,0 +1,151 @@
+body {
+    font-family: 'Roboto';
+    color: #2E2F42;
+}
+.head {
+   
+    background-color: #FFFFFF;
+}
+.foot {
+    
+    background: #2E2F42;
+}
+.link {
+    text-decoration: none;
+}
+.web-logo {
+    font-family: 'Raleway';
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4D5AE5;
+    text-decoration: none;
+}
+.studio-logo {
+    font-family: 'Raleway';
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.links {
+   
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    list-style-type: none;
+    color: #2E2F42;
+}
+.links :active {
+    color:#4D5AE5;
+}
+.link1 {
+    text-decoration: none;
+}
+.link2 {
+    text-decoration: none;
+}
+.link3 {
+    text-decoration: none;
+}
+.address {
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0.02em;
+list-style-type: none;
+}
+.address :active {
+    color: #404BBF;
+}
+.address1 {
+    text-decoration: none;
+    color: #434455;
+}
+.address2 {
+    text-decoration: none;
+    color: #434455;
+}
+.hero {
+    background: #2E2F42;
+    color:#FFFFFF;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 60px;
+}
+.button {
+    background-color:#4D5AE5;
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+}
+.button:hover {
+    background-color: #404BBF;
+}
+.ul {
+    list-style-type: none;
+}
+.feature-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+}
+.features {
+    font-size: 16px;
+    line-height: 24px;
+    color: #434455;
+}
+.section-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 40px;
+    }
+.description {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+}
+.profession {
+    font-size: 16px;
+    line-height: 24px;
+    color: #434455;
+}
+.studio-logo-footer {
+    font-family: 'Raleway';
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #F4F4FD;
+}
+.footer-paragraph {
+    font-size: 16px;
+    line-height: 24px;
+    color: #F4F4FD;
+}
+.button-portfolio {
+    background-color: #F4F4FD;
+    color: #4D5AE5;
+    cursor: pointer;
+}
+.button-portfolio:hover {
+    background-color: #404BBF; 
+    color: #FFFFFF;
+}
+.pic {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+}
+.small {
+    font-size: 16px;
+    line-height: 24px;
+    color: #434455;
+}
