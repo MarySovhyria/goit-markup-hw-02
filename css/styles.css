@@ -61,7 +61,7 @@ font-size: 16px;
 line-height: 24px;
 letter-spacing: 0.02em;
 list-style-type: none;
-font-style: normal
+font-style: normal;
 }
 .address :focus {
     color: #404BBF;
@@ -120,10 +120,12 @@ font-style: normal
 .team {
     background-color: var(--colo4);
 }
-.feature-title {
+.features-title {
     font-weight: 500;
     font-size: 20px;
-    line-height: 24px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--colo);
 }
 .features {
     font-size: 16px;
@@ -144,6 +146,8 @@ font-style: normal
     font-weight: 500;
     font-size: 20px;
     line-height: 24px;
+    letter-spacing: 0.02em;
+    color: var(--colo);
 }
 .profession {
     font-size: 16px;
@@ -204,7 +208,7 @@ font-style: normal
 .link {
     text-decoration: none ;
 }
-.header2 {
+.header-portfolio {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -216,4 +220,7 @@ font-style: normal
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--colo2); 
+}
+.team-list {
+    background-color: #FFFFFF;
 }
