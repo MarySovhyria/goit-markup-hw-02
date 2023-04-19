@@ -1,13 +1,15 @@
 body {
     font-family: "Roboto", sans-serif;
-    background-color: #FFFFFF;
-    color: #434455
+    background-color: var(--colo5);
+    color: var(--colo2);
 }
 :root {
 --colo: #2e2f42;
 --colo2: #434455;
 --colo3: #4D5AE5;
 --colo4: #F4F4FD;
+--colo5: #FFFFFF;
+--colo6: #404bbf;
 }
 .head {
    
@@ -15,7 +17,7 @@ body {
 }
 .foot {
     
-    background: #2E2F42;
+    background: var(--colo);
 }
 .logo {
     text-decoration: none;
@@ -32,7 +34,7 @@ body {
    color: var(--colo);
 }
 .studio-logo-footer {
-    color: #F4F4FD;
+    color: var(--color4)
 
 }
 .list {
@@ -48,49 +50,49 @@ body {
     list-style-type: none;
 }
 .link-header:active {
-    color:#4D5AE5;
+    color:var(--colo3);
 }
 .link-header:hover {
-    color: #404bbf;
+    color: var(--colo6);
 }
 .link-header:focus {
-    color: #404bbf;
+    color: var(--colo6);
 }
 .address {
 font-size: 16px;
-line-height: 24px;
+line-height: 1.5;
 letter-spacing: 0.02em;
 list-style-type: none;
 font-style: normal;
 }
 .address :focus {
-    color: #404BBF;
+    color: var(--colo6);
 }
 .address :hover {
-    color: #404BBF;
+    color: var(--colo6);
 }
 .address-header {
     text-decoration: none;
-    color: #434455;
+    color: var(--colo2);
 }
 .hero {
-    background: #2E2F42;
+    background: var(--colo);
     font-weight: 700;
-    line-height: 60px;
+    line-height: 1.07;
 }
 .hero-text {
     font-size: 56px;
     line-height: 1.07;
     text-align: center;
     letter-spacing: 0.02em;
-    color:#FFFFFF;
+    color:var(--colo5);
 }
 .button {
-    background-color:#4D5AE5;
-    color: #FFFFFF;
+    background-color:var(--colo3);
+    color: var(--colo5);
     font-weight: 500;
     font-size: 16px;
-    line-height: 24px;
+    line-height: 1.5;
     cursor: pointer;
     font-family: "Roboto", sans-serif;
     letter-spacing: 0.04em;
@@ -129,8 +131,8 @@ font-style: normal;
 }
 .features {
     font-size: 16px;
-    line-height: 24px;
-    color: #434455;
+    line-height: 1.5;
+    color: var(--colo2);
 }
 .section-title {
     font-weight: 700;
@@ -140,26 +142,26 @@ font-style: normal;
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: var(--colo);
-    background-color: #FFFFFF;
+    background-color: var(--colo5);
     }
 .description {
     font-weight: 500;
     font-size: 20px;
-    line-height: 24px;
+    line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--colo);
 }
 .profession {
     font-size: 16px;
-    line-height: 24px;
-    color: #434455;
+    line-height: 1.5;
+    color: var(--colo2);
     letter-spacing: 0.02em;
 }
 .studio-logo-footer {
     font-family: 'Raleway';
     font-weight: 800;
     font-size: 18px;
-    line-height: 21px;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     text-decoration: none;
@@ -167,12 +169,12 @@ font-style: normal;
 }
 .footer-paragraph {
     font-size: 16px;
-    line-height: 24px;
+    line-height: 1.5;
     color: var(--colo4);
 }
 .button-portfolio {
     background-color: var(--colo4);
-    color: #4D5AE5;
+    color: var(--colo3);
     cursor: pointer;
     font-family: "Roboto", sans-serif;
     font-weight: 500;
@@ -184,26 +186,26 @@ font-style: normal;
     cursor: pointer;
 }
 .button-portfolio:hover {
-    background-color: #404BBF; 
-    color: #FFFFFF;
+    background-color: var(--colo6);
+    color: var(--colo5);
 }
 .button-portfolio:active {
-    color: #FFFFFF;
-    background-color: #404BBF;
+    color: var(--colo5);
+    background-color: var(--colo6)
 }
 .button-portfolio:focus {
-    color: #FFFFFF;
-    background-color: #404BBF;
+    color: var(--colo5);
+    background-color: var(--colo6);
 }
 .pic {
     font-weight: 500;
     font-size: 20px;
-    line-height: 24px;
+    line-height: 1.2;
 }
 .small {
     font-size: 16px;
-    line-height: 24px;
-    color: #434455;
+    line-height: 1.5px;
+    color: var(--colo2);
 }
 .link {
     text-decoration: none ;
@@ -222,5 +224,5 @@ font-style: normal;
     color: var(--colo2); 
 }
 .team-list {
-    background-color: #FFFFFF;
+    background-color: var(--colo5);
 }
